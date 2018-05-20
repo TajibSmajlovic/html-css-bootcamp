@@ -1,0 +1,31 @@
+div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid midnightblue;
+    border-radius: 100%;
+    /*border-radius: 45px;*/
+
+    background-image: url("../000_img/pup.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border: 30px groove mediumvioletred;
+    border-radius: 100%;
+}
+
+.dogone{
+    border: 15px dashed  mediumvioletred;
+}
+
+.dogtwo{
+    border: 15px dotted mediumvioletred;
+}
+
+.dogthree{
+    border: 15px double mediumvioletred;
+}
