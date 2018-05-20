@@ -1,0 +1,23 @@
+div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid midnightblue;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border: 30px groove mediumvioletred;
+}
+
+.dogone{
+    border: 15px dashed  mediumvioletred;
+}
+
+.dogtwo{
+    border: 15px dotted mediumvioletred;
+}
+
+.dogthree{
+    border: 15px double mediumvioletred;
+}
