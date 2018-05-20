@@ -1,0 +1,8 @@
+/* adds a border to all images and sets size of image*/
+img{
+    width: 256px;
+    height: 200px;
+    border: 10px groove orange;
+    }
+
+/*here's another comment*/
