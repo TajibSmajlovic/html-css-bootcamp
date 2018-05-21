@@ -1,0 +1,19 @@
+div{
+    border: 1px solid darkblue;
+    width: 300px;
+    margin: 10px auto;
+}
+
+
+.pad-me{
+    padding: 20px;
+}
+
+.bb{
+    box-sizing: border-box;
+}
+
+.pad-me_ss{
+    padding: 10px;
+    box-sizing: border-box;
+}
