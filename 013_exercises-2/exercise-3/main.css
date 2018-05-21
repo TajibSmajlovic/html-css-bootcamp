@@ -1,0 +1,7 @@
+div{
+    width: 500px;
+    height: 500px;
+    background-color: blueviolet;
+    border-radius: 50px;
+    border: groove 20px;
+}
