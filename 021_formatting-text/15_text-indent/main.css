@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    padding-top: 30px;
+}
+
+p {
+    max-width: 550px;
+    margin: 20px;
+
+    text-indent: 1rem;
+}
+
+p::first-letter {
+    font-family: cursive;
+    font-size: 2rem;
+    line-height: .5;
+}
+
+p::first-line {
+    color: red;
+
+    font-weight: 900;
+}
+#one{
+    text-indent: 3rem;
+}

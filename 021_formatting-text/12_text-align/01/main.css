@@ -1,0 +1,7 @@
+div {
+    width: 90%;
+    height: 3rem;
+    text-align: center;
+    border: 3px solid black;
+    text-shadow: 4px 7px 3px blue;
+}

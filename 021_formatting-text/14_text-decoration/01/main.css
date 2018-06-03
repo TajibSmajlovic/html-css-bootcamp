@@ -1,0 +1,14 @@
+html {
+    font-size: 15rem;
+}
+
+p {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration-color: mediumseagreen;
+    text-decoration-style: wavy;
+    /*text-decoration: none;*/
+
+}
