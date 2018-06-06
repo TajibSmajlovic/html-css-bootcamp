@@ -1,0 +1,24 @@
+body {
+    display: flex;
+}
+
+div {
+    border: 2px solid black;
+    height: 100px;
+    width: 400px;
+    flex-basis: auto;
+    /*
+    the above two lines are the same as:
+    flex-basis: 400px;
+    */
+}
+
+.flex1 {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.flex2 {
+    flex-grow: 8;
+    flex-shrink: 8;
+}
