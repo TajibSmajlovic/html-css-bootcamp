@@ -1,0 +1,10 @@
+h1{
+    font-size: 28px;
+}
+
+@media (max-width: 900px) {
+    h1  {
+        color: darkred;
+    }
+
+}
