@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    /*flex-direction: row;*/
+    /*flex-wrap: nowrap;*/
+    /* formatting */
+    border: 5px solid red;
+}
+
+div {
+    /* formatting */
+    width: 400px;
+    height: 100px;
+    margin: 1em;
+    border: 1px solid red;
+    background-color: darkgray;
+    text-align: center;
+}
+
+.class {
+    flex-shrink: 1;
+}
+
+#s2 {
+    flex-shrink: 2;
+}
