@@ -1,0 +1,21 @@
+div:first-child{
+    background-color: black;
+}
+div:nth-child(2){
+    background-color: yellow;
+}
+div:nth-child(3){
+    background-color: #00C957;
+}
+div:nth-child(4){
+    background-color: silver;
+}
+div:nth-child(5){
+    background-color: #0000FF;
+}
+div:nth-child(6){
+    background-color: #308014;
+}
+div:last-child{
+    background-color: #FF0000;
+}

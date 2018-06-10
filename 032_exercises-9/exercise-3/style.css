@@ -1,0 +1,28 @@
+div:first-child{
+    background-color: black;
+    order: 7;
+}
+div:nth-child(2){
+    background-color: yellow;
+    order: 6;
+}
+div:nth-child(3){
+    background-color: #00C957;
+    order: 5;
+}
+div:nth-child(4){
+    background-color: silver;
+    order: 4;
+}
+div:nth-child(5){
+    background-color: #0000FF;
+    order: 3;
+}
+div:nth-child(6){
+    background-color: #308014;
+    order: 2;
+}
+div:last-child{
+    background-color: #FF0000;
+    order: 1;
+}
