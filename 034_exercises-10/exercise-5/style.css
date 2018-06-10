@@ -1,0 +1,6 @@
+header, nav, article, aside, footer{
+    text-align:center ;
+    background-color: lightcoral;
+    padding: 20px 0;
+    border: 2px solid silver;
+}

@@ -1,0 +1,18 @@
+ul{
+    list-style: none;
+    background-color: dimgrey;
+}
+a{
+    text-decoration: none;
+    padding: 25px;
+    color: whitesmoke;
+    text-align: center;
+    border-top: 1px solid darkslategrey;
+    border-bottom: 1px solid darkslategray;
+}
+a:hover{
+    background-color: darkslategrey;
+}
+a:last-child{
+    border-bottom: none;
+}

@@ -1,0 +1,10 @@
+header,div,nav, article, aside, footer{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /*display: flex;*/
+    /*flex-flow: row wrap;*/
+    /*width: 100%;*/
+}

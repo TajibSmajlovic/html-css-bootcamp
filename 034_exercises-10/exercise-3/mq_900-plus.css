@@ -1,0 +1,10 @@
+nav {
+    width: 25%;
+}
+main{
+    width: 75%;
+}
+ul{
+    flex-flow: column wrap;
+    text-align: start;
+}

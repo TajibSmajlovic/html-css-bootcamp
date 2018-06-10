@@ -1,0 +1,19 @@
+header, article, aside, footer{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+body{
+    display: flex;
+    flex-flow: row wrap;
+
+}
+article{
+    text-align: start;
+}
