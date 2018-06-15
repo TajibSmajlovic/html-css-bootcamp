@@ -1,0 +1,36 @@
+html {
+    border: 2px solid blue;
+}
+
+body {
+    width: 40%;
+    border: 2px solid green;
+    /*position: relative;*/
+}
+
+div {
+    border: 2px solid red;
+    color: #fff;
+}
+
+#one {
+    /* comment out position: relative */
+    /* absolute is positioned off html element */
+    position: relative;
+    top: 100px;
+    /* formatting */
+    width: 600px;
+    height: 400px;
+    background-color: #bcbbbb;
+}
+
+#two {
+    position: absolute;
+    top: 120px;
+    /*bottom: -210px;*/
+    right: 20px;
+    /* formatting */
+    width: 300px;
+    height: 200px;
+    background-color: cadetblue;
+}
