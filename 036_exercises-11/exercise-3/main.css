@@ -1,0 +1,19 @@
+body{
+    width: 80%;
+}
+div{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: tomato;
+    border: 3px solid red;
+}
+#absolute{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 150px;
+    right: 20px;
+    background-color: deeppink;
+    border: 3px solid red;
+}

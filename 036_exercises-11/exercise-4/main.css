@@ -1,0 +1,16 @@
+body{
+    position: relative;
+    margin: 0 auto;
+    max-width: 800px;
+}
+#left{
+    position: absolute;
+    width: 150px;
+    height: 400px;
+    border: 2px solid red;
+}
+#right{
+    margin-left: 150px;
+    height: 400px;
+    border: 2px solid black;
+}
