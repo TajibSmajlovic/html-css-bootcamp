@@ -1,0 +1,17 @@
+div {
+    float: left;
+    /* formatting */
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 2px solid green;
+    background-color: red;
+}
+
+section {
+    border: 2px solid blue;
+}
+
+#hanh {
+    clear: both;
+}
