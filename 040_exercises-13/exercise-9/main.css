@@ -1,0 +1,12 @@
+div{
+  background-image: url(../exercises/exercise-files/dog.png);
+  height: 600px;
+  width: 600px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  border: 15px groove orange;
+  background-position: 300px 10px;
+}
+h1{
+  font-size: 15px;
+}
