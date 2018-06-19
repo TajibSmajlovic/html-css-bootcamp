@@ -1,0 +1,15 @@
+#idx-atf {
+  background-image: url("../img/background-photo.jpg");
+}
+
+#idx-atf > div {
+  height: 28vh;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h3 {
+  margin-top: 0.4rem;
+}
