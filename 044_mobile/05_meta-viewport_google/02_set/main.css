@@ -1,0 +1,22 @@
+html, body, article, p {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 200px;
+    background-image: url('checker.png');
+}
+
+article {
+    width: 100%;
+    color: #ccc;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 10px;
+}
+
+b {
+    color: #fff;
+}
