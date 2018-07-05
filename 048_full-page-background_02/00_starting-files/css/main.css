@@ -27,6 +27,11 @@ header nav {
   /* TEMPORARY */
   background-color: red;
   display: flex;
+  fill: whitesmoke;
+}
+
+header div {
+  justify-content: flex-start;
 }
 
 #idx-atf {
