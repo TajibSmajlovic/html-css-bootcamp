@@ -1,0 +1,37 @@
+html, body, div, button{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 3vw;
+}
+
+#atf{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#t{
+    width: 18rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #5b5b5b;
+
+}
+#t1:hover, #t2:hover, #t3:hover, #t4:hover{
+    border-bottom: 3px solid #3A5FCD;
+
+}
+
+button{
+    flex-grow: 1;
+    background-color: white;
+    text-align: center;
+    font-size: 1rem;
+    border-bottom:  3px solid transparent;
+}
