@@ -1,0 +1,32 @@
+html,body,p{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style:oblique ;
+
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animation {
+    0%{
+        font-size: 1rem;
+        color: brown;
+    }
+    100%{
+        font-size: 10rem;
+        color: slategrey;
+        font-style: normal;
+    }
+}

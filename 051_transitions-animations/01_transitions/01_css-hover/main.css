@@ -1,0 +1,21 @@
+div{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-size: 5rem;
+
+}
+div:hover{
+    background-color: red;
+    color: yellow;
+}
+.trans{
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: revert;
+}
