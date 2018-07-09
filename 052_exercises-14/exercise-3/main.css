@@ -1,3 +1,8 @@
+html, body, div{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
     height: 100vh;
     display: flex;
@@ -7,19 +12,31 @@ body {
 div {
     width: 200px;
     height: 200px;
-    border: 10px groove orchid;
-    animation-name: wackabacka;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+
+    position: relative;
+    /*position: absolute;*/
+
+    left: 0;
+    border: 10px groove #5b5b5b;
+    animation-name: anim;
     animation-duration: 2s;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 
-@keyframes wackabacka {
+@keyframes anim{
     0%{
-        justify-content: flex-start;
+        left: 0;
+        background-color: red;
     }
     100%{
-        justify-content: flex-end;
+        left: 90%;
+        /*left: 90vw;*/
+        
+        border-radius: 100%;
+        background-color: blue;
+        border: 10px solid slategrey;
     }
 }

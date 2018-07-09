@@ -1,0 +1,27 @@
+html, body, div{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 5vw;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    height: 500px;
+    width: 500px;
+    background-color: red;
+}
+div:hover{
+    border-radius: 100%;
+    background-color: blue;
+    transform: rotate(180deg);
+}
+.trans{
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: revert;
+}

@@ -15,13 +15,22 @@ div{
     width: 500px;
     background-color: red;
 }
-div:hover{
-    border-radius: 100%;
-    background-color: blue;
-    transform: rotate(180deg);
+div{
+    animation-name: animation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
 }
-.trans{
-    transition-property: all;
-    transition-duration: 1s;
-    transition-timing-function: revert;
+@keyframes animation {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        background-color: blue;
+        border-radius: 100%;
+        transform: rotate(180deg);
+    }
 }
