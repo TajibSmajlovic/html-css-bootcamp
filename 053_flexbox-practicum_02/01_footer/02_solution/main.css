@@ -1,0 +1,89 @@
+html{
+    font-size: 1vw;
+}#atf{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ div h1{
+     color: #5b5b5b;
+     font-size: 7rem;
+     text-align: center;
+     /*padding: 0 5% 0 5%;*/
+     /*!*padding-left: 5%;*!*/
+     /*!*padding-right: 5%;*!*/
+ }
+ footer{
+     display: flex;
+     justify-content: center;
+ }
+ #top-border{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 95%;
+     height: 12rem;
+     border-top: 2px solid rgba(89,114,169,0.88);
+ }
+ #ftr-spinner, #ftr-buttons{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 0 6rem;
+     font-size: 4rem;
+ }
+ span{
+     margin-left: 1rem;
+     color: rgba(169,169,169,0.88);
+ }
+ button{
+     color: inherit;
+     border-radius: 4rem;
+     padding: 1rem 3rem;
+     cursor: pointer;
+ }
+ #reset{
+     background-color: white;
+     color: deepskyblue;
+ }
+ #save{
+     border: 1px solid blue;
+     background-color: white;
+     color: deepskyblue;
+     margin-left: 1rem;
+ }
+ #save:hover{
+     background-color: #b4d2f7;
+ }
+.icon{
+     width: 1em;
+     height: 1em;
+     fill: rgba(169,169,169,0.88);
+ }
+ .icon-spinner{
+     animation-name: spinner;
+     animation-duration: 100ms;
+     animation-timing-function: linear;
+     animation-direction: alternate;
+     animation-iteration-count: infinite;
+ }
+ @keyframes spinner {
+     0% { transform:rotate(0deg);
+         margin-bottom: -5rem;
+     }
+     100%   { transform:rotate(360deg);
+        margin-bottom: 5rem;
+     }
+ }
+/*.icon-spinner{*/
+    /*animation-name: up-down;*/
+    /*animation-duration: 1s;*/
+    /*animation-timing-function: linear;*/
+    /*animation-direction: alternate;*/
+    /*animation-iteration-count: infinite;*/
+/*}*/
+/*@keyframes up-down {*/
+    /*0% { margin-bottom: -5rem;}*/
+    /*100% {margin-bottom: 5rem;}*/
+/*}*/
