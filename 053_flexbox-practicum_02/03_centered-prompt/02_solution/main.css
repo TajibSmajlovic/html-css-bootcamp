@@ -1,0 +1,47 @@
+html{
+    font-size: 2vw;
+}
+#atf{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.smajli, h1, h2{
+    padding-bottom: 0.5rem;
+}
+.smajli{
+    fill: rgba(89,114,169,0.88);
+    font-size: 2rem;
+}
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #5b5b5b;
+}
+h2{
+    font-size: 1.5rem;
+    color: #5b5b5b;
+}
+button{
+    border-radius: 5%;
+    background-color: deepskyblue;
+    display: flex;
+    padding: 1rem 3rem;
+    color: white;
+}
+.smajli{
+    animation-name: anim;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes anim {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
