@@ -1,0 +1,93 @@
+html {
+    font-size: 1vw;
+    font-family: Raleway, Helvetica, sans-serif;
+    color: #57727C;
+}
+
+#atf {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(202, 208, 210);
+    border-radius: 4px;
+    width: 27%;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.bottom {
+    width: 100%;
+    text-align: center;
+    background-color: #EEF3F5;
+    border-top: 1px solid #D7DBDD;
+    margin-top: 1.6rem;
+    padding: 1.7rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+h3 {
+    font-size: 2.2rem;
+    font-weight: 300;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.icon-mas {
+    color: rgb(188, 210, 218);
+    font-size: 20rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
