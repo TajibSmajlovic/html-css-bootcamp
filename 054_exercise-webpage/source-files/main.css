@@ -1,0 +1,49 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4.5rem;
+    width: 100%;
+    padding: 0 1.5rem;
+    background-color: rgba(90,115,166,0.5);
+
+    /*arrange content*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header > div{
+    height: 70%;
+    width: 10rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgba(47,64,94,0.88);
+
+    /*arrange content*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#atf{
+    height: 100vh;
+    background-image: url("bird.jpg");
+    background-size: cover;
+    background-position: center;
+
+    /*arrange content*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 6rem;
+    color: antiquewhite;
+}
+
+h2{
+    text-align: center;
+    font-size: 12rem;
+    font-family: 'Pacifico', cursive;
+    color: rgba(89,114,169,0.88);
+}
