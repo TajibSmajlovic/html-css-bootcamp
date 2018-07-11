@@ -1,0 +1,56 @@
+html, body, div{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+label{
+    position: fixed;
+    top: 1rem;
+    left: 0.5rem;
+    z-index: 1;
+
+    /*arrange content*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*format*/
+    width: 5rem;
+    height: 2rem;
+    border: .3rem rgba(89,114,169,0.88);
+    border-radius: 1rem;
+    background-color: rgba(169,169,169,0.88);
+    color: white;
+}
+label:hover{
+    background-color: rgba(47,64,94,0.88);
+}
+
+input[type=checkbox]{
+    display: none;
+}
+
+#sidebar{
+    position: fixed;
+    left: -50rem;
+
+    /*formatting*/
+    height: 100vh;
+    width: 6vw;
+    background-color: lightblue;
+    border-right: 2px solid blue;
+
+    /*transition*/
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-duration: 1s;
+}
+input[type=checkbox]:checked ~ #sidebar{
+    left: -1rem;
+}
+
+ol{
+    margin-top: 4rem;
+}
